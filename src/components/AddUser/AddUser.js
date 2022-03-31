@@ -35,10 +35,9 @@ const AddUser = () => {
         <div>
             <h2>Please add user Add User</h2>
             <form onSubmit={handleSubmit}>
-            <input type="text" placeholder='name' ref={nameRef}  />
-            <input type="text" placeholder='email' ref={emailRef}/>
-            <input type="submit" value="add" />
-            
+            <input type="text"  placeholder='name' ref={nameRef}  />
+            <input type="text"  placeholder='email' ref={emailRef}/>
+            <input type="submit" value="add" />   
             </form>
         </div>
     );
